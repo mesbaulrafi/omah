@@ -1,12 +1,11 @@
 @import "tailwindcss";
 
 @theme {
- --font-Saira: "saira", sans-serif; 
- --font-Rowdies: "owdies", sans-serif; 
+ --font-Poppins: "Poppins", sans-serif; 
 }
 
 .container {
-    @apply max-w-355 mx-auto
+    @apply max-w-290.5 mx-auto
 }
 
 .flex {
@@ -14,10 +13,10 @@
 }
 
 .logo {
-    @apply cursor-pointer w-45
+    @apply cursor-pointer 
 }
 .menuli {
-    @apply text-[#1B2336] font-Saira text-[20px] font-medium mr-4  hover:text-[#2AAA94] duration-200 cursor-pointer
+    @apply text-[#1B2336] fon text-[16px] font-light mr-4  hover:font-bold duration-200 cursor-pointer
 }
 
 .loginBtn {
@@ -53,19 +52,3 @@
      @apply px-7 py-2.5 bg-linear-to-r from-[#3023B2] to-[#7F56D9] rounded-[10px] absolute bottom-1.5 right-48 text-white text-[15px] font-Saira cursor-pointer
 }
 
-.bannerMiddleh4 {
- @apply text-white font-Rowdies text-base
-}
-
-.bannerMiddlep {
-  @apply text-white font-Saira text-base pt-2
-}
-
-.rating{
-    @apply text-[#5AB48E] text-[12px] font-Saira font-bold 
-}
-/* benner ads */
-
-.ad{
-     @apply bg-linear-to-r from-[#3249cf] via-[#7653f5] to-[#2a88d9]
-}
