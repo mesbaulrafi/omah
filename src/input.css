@@ -2,6 +2,7 @@
 
 @theme {
  --font-poppins: "Poppins", sans-serif; 
+ --shadow-div: 0px 1px 21px 6px rgba(0,0,0,0.10);
 }
 
 .container {
@@ -44,3 +45,14 @@
 }
 
 
+/* Service Part */
+.srevice{
+    @apply w-75 p-6 relative  duration-300 border border-transparent hover:border hover:border-[#EEEDDE] hover:rounded-[10px] 
+}
+.sreviceText{
+    @apply flex justify-between before:content-[''] before:absolute before:left-0 before:w-1.5 before:h-7 before:bg-[#FF7527] before:rounded-full 
+}
+
+.ServiceTextp{
+    @apply pt-2 pb-12 text-base font-medium text-[#203239] opacity-55
+}
