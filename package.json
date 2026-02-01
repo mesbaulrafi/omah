@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.18",
+    "tailwindcss": "^4.1.18"
+  },
+  "name": "edujarr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mesbaulrafi/edujarr.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mesbaulrafi/edujarr/issues"
+  },
+  "homepage": "https://github.com/mesbaulrafi/edujarr#readme"
+}

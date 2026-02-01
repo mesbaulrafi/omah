@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@theme {
+ --font-Saira: "saira", sans-serif; 
+ --font-Rowdies: "owdies", sans-serif; 
+}
+
+.container {
+    @apply max-w-355 mx-auto
+}
+
+.flex {
+    @apply flex items-center justify-between
+}
+
+.logo {
+    @apply cursor-pointer w-45
+}
+.menuli {
+    @apply text-[#1B2336] font-Saira text-[20px] font-medium mr-4  hover:text-[#2AAA94] duration-200 cursor-pointer
+}
+
+.loginBtn {
+    @apply text-[#4A4A4A] font-Saira text-[20px] font-medium border-b mr-10.25 cursor-pointer hover:text-[#2AAA94]
+}
+
+.signupBtn {
+     @apply text-white font-Saira text-[20px] py-5 px-9 rounded-2xl font-medium bg-linear-to-r from-[#1042a2] to-[#8f66f4] cursor-pointer
+}
+/* Benner Part */
+
+
+
+.bennerToptext {
+    @apply text-white font-semibold text-[18px] tracking-[3px] font-Saira uppercase
+}
+
+.bennerh1 {
+    @apply text-white font-bold font-Rowdies text-[80px] leading-22.5 w-167.5
+}
+
+.bennerBtn {
+    @apply text-white text-[18px] font-medium font-Saira hover:font-semibold px-7 mr-4 py-4.5 hover:border-2 hover:border-white rounded-[10px] border-2 border-transparent duration-300 cursor-pointer
+}
+
+
+
+.bannerSearch {
+     @apply flex py-3.75 px-8.75 bg-white w-122.25 rounded-[7px] text-[#4F547B] text-base font-Saira outline-none relative
+}
+
+.InputBtn {
+     @apply px-7 py-2.5 bg-linear-to-r from-[#3023B2] to-[#7F56D9] rounded-[10px] absolute bottom-1.5 right-48 text-white text-[15px] font-Saira cursor-pointer
+}
+
+.bannerMiddleh4 {
+ @apply text-white font-Rowdies text-base
+}
+
+.bannerMiddlep {
+  @apply text-white font-Saira text-base pt-2
+}
+
+.rating{
+    @apply text-[#5AB48E] text-[12px] font-Saira font-bold 
+}
+/* benner ads */
+
+.ad{
+     @apply bg-linear-to-r from-[#3249cf] via-[#7653f5] to-[#2a88d9]
+}
