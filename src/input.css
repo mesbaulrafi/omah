@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
- --font-Poppins: "Poppins", sans-serif; 
+ --font-poppins: "Poppins", sans-serif; 
 }
 
 .container {
@@ -9,46 +9,33 @@
 }
 
 .flex {
-    @apply flex items-center justify-between
+    @apply flex items-center 
 }
 
 .logo {
     @apply cursor-pointer 
 }
 .menuli {
-    @apply text-[#1B2336] fon text-[16px] font-light mr-4  hover:font-bold duration-200 cursor-pointer
+    @apply text-[#1B2336] text-[16px] font-poppins font-light mr-4  hover:font-bold duration-200 cursor-pointer
 }
 
-.loginBtn {
-    @apply text-[#4A4A4A] font-Saira text-[20px] font-medium border-b mr-10.25 cursor-pointer hover:text-[#2AAA94]
-}
 
-.signupBtn {
-     @apply text-white font-Saira text-[20px] py-5 px-9 rounded-2xl font-medium bg-linear-to-r from-[#1042a2] to-[#8f66f4] cursor-pointer
-}
 /* Benner Part */
 
-
-
-.bennerToptext {
-    @apply text-white font-semibold text-[18px] tracking-[3px] font-Saira uppercase
-}
-
 .bennerh1 {
-    @apply text-white font-bold font-Rowdies text-[80px] leading-22.5 w-167.5
+    @apply text-[#203239] font-semibold font-poppins text-[56px]  w-194.25
 }
-
-.bennerBtn {
-    @apply text-white text-[18px] font-medium font-Saira hover:font-semibold px-7 mr-4 py-4.5 hover:border-2 hover:border-white rounded-[10px] border-2 border-transparent duration-300 cursor-pointer
+.bennerp {
+    @apply text-[#203239] font-light font-poppins text-[16px]  w-136 opacity-55 pt-6 pb-19.5
 }
-
 
 
 .bannerSearch {
-     @apply flex py-3.75 px-8.75 bg-white w-122.25 rounded-[7px] text-[#4F547B] text-base font-Saira outline-none relative
+     @apply flex py-3.75 px-8.75 bg-white w-127 rounded-[15px] text-[#203239] opacity-55 text-base font-poppins outline-none relative
 }
 
-.InputBtn {
-     @apply px-7 py-2.5 bg-linear-to-r from-[#3023B2] to-[#7F56D9] rounded-[10px] absolute bottom-1.5 right-48 text-white text-[15px] font-Saira cursor-pointer
+.bennerBtn{
+    @apply cursor-pointer  text-[#203239] opacity-55 bg-white w-34.5 py-3.75 px-3.5 rounded-[15px]
 }
+
 
