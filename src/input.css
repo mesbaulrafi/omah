@@ -16,8 +16,13 @@
     @apply cursor-pointer 
 }
 .menuli {
-    @apply text-[#1B2336] text-[16px] font-poppins font-light mr-4  hover:font-bold duration-200 cursor-pointer
+    @apply text-[#1B2336] text-[16px] font-poppins font-light mr-4  hover:font-bold duration-200 cursor-pointer relative 
 }
+.afterLi{
+   @apply  after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-0 after:h-[3px] after:bg-[#F6762E] after:transition-all after:duration-400 hover:after:w-[60%]
+}
+
+
 
 
 /* Benner Part */
