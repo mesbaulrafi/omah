@@ -66,7 +66,7 @@
     @apply text-base text-[#203239] font-light w-142.5 pt-6 pb-12
 }
 .favoritBtn{
-    @apply py-3.25 px-10 border rounded-[10px] hover:bg-black hover:text-white
+    @apply py-3.25 px-10 border rounded-[10px] hover:bg-black hover:text-white duration-300
 }
 
 
